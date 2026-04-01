@@ -1,7 +1,6 @@
-
 无限:`infinity`
-##### Carpet规则
-###### 1.基础
+## Carpet规则
+#### 1.基础
 - 语言`language`
 ```java
 /carpet language zh_cn
@@ -26,7 +25,7 @@
 ```java
 /carpet creativeOpenContainerForcibly true
 ```
-###### 2.命令
+#### 2.命令
 - 开放/carpet命令权限`openCarpetPermission`
 ```java
 /carpet openCarpetPermission true
@@ -47,7 +46,7 @@
 ```java
 /carpet commandPlayer true
 ```
-###### 3.假人
+#### 3.假人
 - 假人管理`commandBot`
 ```java
 /carpet commandBot true
@@ -76,7 +75,7 @@
 ```java
 /carpet fancyFakePlayerName bot
 ```
-###### 4.更新抑制
+#### 4.更新抑制
 - 重新引入瞬时方块更新逻辑`instantBlockUpdaterReintroduced`
 ```java
 /carpet instantBlockUpdaterReintroduced true
