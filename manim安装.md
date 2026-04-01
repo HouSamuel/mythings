@@ -16,8 +16,9 @@ uv python install 3.14.3
 uv python pin 3.14.3
 uv add manim
 ```
+或直接运行
 ```bash
-uv init  &&  uv python install 3.14.3 &&  uv python pin 3.14.3  &&  uv add manim
+uv init  &&  uv python install 3.14.3  &&  uv python pin 3.14.3  &&  uv add manim
 ```
 python版本通常使用稳定版
 ##### 3.验证
