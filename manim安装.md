@@ -12,14 +12,14 @@ cd <your_project_directory>
 ```
 ```bash
 uv init
-uv python install 3.15
-uv python pin 3.15
+uv python install 3.14.3
+uv python pin 3.14.3
 uv add manim
 ```
 ```bash
-uv init  &&  uv python install 3.15  &&  uv python pin 3.15  &&  uv add manim
+uv init  &&  uv python install 3.14.3 &&  uv python pin 3.14.3  &&  uv add manim
 ```
-python版本通常使用最新版
+python版本通常使用稳定版
 ##### 3.验证
 编辑main.py
 ```python
