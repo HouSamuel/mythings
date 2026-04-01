@@ -30,5 +30,5 @@ class SquareToCircle(Scene):
         self.wait(1)
 ```
 ```bash
-uv run manim -pql test.py SquareToCircle
+uv run manim -pql main.py SquareToCircle
 ```
