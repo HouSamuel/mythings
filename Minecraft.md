@@ -1,5 +1,5 @@
 
-\无限:`infinity`
+无限:`infinity`
 ##### Carpet规则
 ###### 1.基础
 - 语言`language`
