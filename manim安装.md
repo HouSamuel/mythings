@@ -9,8 +9,11 @@ brew install latex
 ##### 2.python安装
 ```
 cd <your_project_directory>
+```
+```
 uv init
-uv python install <python_version>
-uv python pin <python_version>
+uv python install 3.15
+uv python pin 3.15
 uv add manim
 ```
+python版本通常使用最新版
