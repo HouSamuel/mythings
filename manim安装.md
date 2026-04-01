@@ -15,7 +15,7 @@ uv卸载
 uv cache clean  &&  rm -rf "$(uv python dir)"  &&  rm -rf "$(uv tool dir)"
 ```
 ```bash
-rm ~/.cargo/bin/uv ~/.cargo/bin/uvx  &&  rm ~/.local/bin/uv ~/.local/bin/uvx  &&  which uv
+rm ~/.local/bin/uv ~/.local/bin/uvx
 ```
 #### 2.python安装
 ```bash
