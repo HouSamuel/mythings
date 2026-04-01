@@ -6,6 +6,17 @@ brew install cairo pango harfbuzz fribidi pkg-config
 brew install ffmpeg
 brew install latex
 ```
+uv安装
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+uv卸载
+```bash
+uv cache clean  &&  rm -rf "$(uv python dir)"  &&  rm -rf "$(uv tool dir)"
+```
+```bash
+rm ~/.cargo/bin/uv ~/.cargo/bin/uvx  &&  rm ~/.local/bin/uv ~/.local/bin/uvx  &&  which uv
+```
 #### 2.python安装
 ```bash
 cd <your_project_directory>
