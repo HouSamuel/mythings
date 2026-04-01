@@ -1,4 +1,4 @@
-###manim安装
+### manim安装
 ##### 1.系统依赖
 ```bash
 brew install uv
