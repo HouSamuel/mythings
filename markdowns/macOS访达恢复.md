@@ -87,5 +87,8 @@ sudo shutdown -r now
 ```
 仅清除.DS_Store：
 ```bash
-find ~ -name ".DS_Store" -type f -delete 2>/dev/null && sudo find /System/Volumes/Data -maxdepth 2 -name ".DS_Store" -delete 2>/dev/null && sudo find /Volumes -name ".DS_Store" -delete 2>/dev/null && killall Finder && killall Dock
+find ~ -name ".DS_Store" -type f -delete 2>/dev/null && sudo find /System/Volumes/Data -maxdepth 2 -name ".DS_Store" -delete 2>/dev/null && sudo find /Volumes -name ".DS_Store" -delete 2>/dev/null
+```
+```bash
+killall Finder && killall Dock
 ```
