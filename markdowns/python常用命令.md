@@ -5,7 +5,7 @@
 华为云`​https://repo.huaweicloud.com/repository/pypi/simple/\`<br>
 中国科学技术大学`https://mirrors.ustc.edu.cn/pypi/simple/`<br>
 腾讯云`https://mirrors.cloud.tencent.com/pypi/simple/`<br>
-### uv安装卸载
+## uv安装卸载
 uv安装
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -17,7 +17,7 @@ uv cache clean  &&  rm -rf "$(uv python dir)"  &&  rm -rf "$(uv tool dir)"
 ```bash
 rm ~/.local/bin/uv ~/.local/bin/uvx
 ```
-### pip配置镜像站
+## pip配置镜像站
 pip临时使用镜像站
 ```python
 -i https://pypi.tuna.tsinghua.edu.cn/simple/
@@ -54,7 +54,7 @@ pip config list
 pip config unset global.index-url
 ```
 作用域参数:`--user`、`--global`、`--site`
-### uv配置镜像站
+## uv配置镜像站
 1.临时配置`uv add --index-url <mirror_url> <packet>`
 ```bash
 --index-url https://pypi.tuna.tsinghua.edu.cn/simple/
