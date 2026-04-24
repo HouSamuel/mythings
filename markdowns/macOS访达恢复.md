@@ -73,8 +73,8 @@ rm -rf ~/Library/Saved\ Application\ State/com.apple.finder.savedState
 
 ---
 
-## ✅ 总结：推荐你按此最短路径再试一次
-
+## ✅ 总结：
+最彻底（清理所有设置）：
 ```bash
 # 在正常系统下运行（无需进恢复模式）
 killall Finder
@@ -85,11 +85,7 @@ defaults delete com.apple.finder
 killall Finder
 sudo shutdown -r now
 ```
-
-重启后，如果依然无效，请告诉我：
-
-- 你用的是哪一版 macOS？（比如 Ventura、Sonoma、Sequoia）
-- 是否安装了“TotalFinder”、“XtraFinder”或“Path Finder”等第三方文件管理工具？
-- 你是否之前使用过自动化脚本或终端命令来“锁定”文件夹视图？
-
-我会根据你的反馈给出更精准的排查方法。
+仅清除.DS_Store：
+```bash
+find ~ -name ".DS_Store" -type f -delete 2>/dev/null && sudo find /System/Volumes/Data -maxdepth 2 -name ".DS_Store" -delete 2>/dev/null && sudo find /Volumes -name ".DS_Store" -delete 2>/dev/null && killall Finder && killall Dock
+```
