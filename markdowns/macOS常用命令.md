@@ -2,7 +2,11 @@
 ```bash
 sudo xattr -d com.apple.quarantine
 ```
-homebrew苹果电脑安装脚本：
+hmebrew中科大(USTC)镜像脚本
+```bash
+/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+```
+homebrew苹果电脑安装配置脚本：
 ```
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
